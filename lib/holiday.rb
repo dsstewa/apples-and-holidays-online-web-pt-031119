@@ -83,14 +83,14 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.map do |season, holidays|
     holidays.collect do |holiday,supplys|
     
-    if supplys.include?("BBQ")
-      fun_holidays << holiday
+     supplys.include?("BBQ")
+      #fun_holidays << holiday
       #binding.pry
-  end
+  
   
 end
 end
-fun_holidays
+
 end
 
 
